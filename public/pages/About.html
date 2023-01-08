@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirza | About</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="../css/output.css" />
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <nav
+      class="border-b-2 flex flex-col sm:flex-row flex-wrap md:items-center px-4 md:px-5 lg:px-16 py-2 justify-between fixed top-0 z-20 w-full backdrop-filter backdrop-blur-md bg-white bg-opacity-70"
+    >
+      <div
+        class="flex items-center justify-between sm:justify-around gap-x-2 text-white"
+      >
+        <a
+          href="#!"
+          class="py-1 flex items-center text-2xl font-poppins text-slate-700"
+        >
+          <b class="text-slate-900">Mirza Maulana</b>
+        </a>
+
+        <!-- Hamburger -->
+        <button
+          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+          id="hamburger"
+          aria-label="menu"
+        >
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-4 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+        </button>
+      </div>
+
+      <ul
+        class="hidden sm:flex justify-end font-poppins items-center gap-x-7 gap-y-5 tracking-wide mt-28 sm:mt-0 text-black w-auto h-screen sm:w-0 sm:h-0 sm:text-left text-center text-lg md:text-sm"
+        id="links"
+      >
+        <li class="mb-5 sm:mb-0">
+          <a href="/index.html" class="text-yellow-400">Home</a>
+        </li>
+        <li class="mb-5 sm:mb-0">
+          <a href="/public/pages/project.html" class="hover:text-gray-300"
+            >Project</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a href="/public/pages/skills.html" class="hover:text-gray-300"
+            >Skills</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a href="/public/pages/About.html" class="hover:text-gray-300"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Page Content -->
+      <section
+        class="sm:pb-20 sm:pt-20 pt-1 mt-10 justify-between mx-5 sm:flex md:mx-14 font-poppins"
+      >
+        <div
+          class="shadow-lg w-60 mx-auto rounded-full md:order-2 md:w-2/5 md:mx-3 overflow-hidden"
+        >
+          <img src="/public/img/me.jpeg" alt="" />
+        </div>
+
+        <div class="mt-10 basis-1/2">
+          <h1
+            class="font-bold text-2xl text-yellow-400 md:text-4xl lg:text-5xl"
+          >
+            Mirza Maulana Fauzian Risky
+          </h1>
+          <p class="text-gray-600 mb-5 mt-2 font-thin">
+            I'm an Software Engineer Student from SMK Muhammadiyah 1 Sukoharjo.I
+            live in Karanganyar, Indonesia. I was born in Karanganyar, 15
+            January 2006. I'm 16 years old. Coding has been my passion and hobby
+            since I was 15 years old, and I love computer since I was a kid.
+            Besides coding, I love listening to music. My favorite genres are
+            Pop, Jazz, Rhythm and Blues,and Reggae. I like playing games too. My
+            favorite genre is Massively Multiplayer Online - Role Playing Game
+            (MMORPG) Sometimes I watch anime. I spend a lot of time on Facebook
+            sharing memes and shitposts.
+          </p>
+        </div>
+      </section>
+      <p class="text-center my-5">
+        You can also visit some of my other works in
+        <a
+          href="https://github.com/MirzaMaulana"
+          class="text-blue-500 underline"
+          >my github</a
+        >
+      </p>
+      <section class="my-8 mx-4 pt-10 text-center font-poppins border-t-2">
+        <p>
+          You can reach me out via email at
+          <i class="text-blue-400 underline">mirzamaulana.dev@gmail.com</i>
+          or via socials below:
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center gap-3">
+          <button
+            type="button"
+            class="block w-full py-2.5 bg-blue-800 shadow text-white mt-2 font-mediums leading-tight uppercase rounded text-xs"
+          >
+            Facebook
+          </button>
+          <button
+            type="button"
+            class="block w-full py-2.5 bg-black text-white shadow mt-2 font-mediums leading-tight uppercase rounded text-xs"
+          >
+            Github
+          </button>
+          <button
+            type="button"
+            class="block w-full py-2.5 bg-purple-800 text-white shadow mt-2 font-mediums leading-tight uppercase rounded text-xs"
+          >
+            Instagram
+          </button>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="p-2 border-t-2 text-black">
+        <p class="text-center font-poppins my-2 font-semibold px-2">
+          Create with love <b class="text-yellow-400">Mirza</b> - Copyright
+          &copy; <span id="year">2023</span>.
+        </p>
+      </footer>
+    </main>
+
+    <!-- Core Navbar JS-->
+    <script src="../js/navbar.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

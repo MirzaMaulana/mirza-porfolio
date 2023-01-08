@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirza here...</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./public/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="./public/css/output.css" />
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="./public/css/styles.css" />
+  </head>
+  <body>
+    <section id="loading h-screen w-auto "></section>
+    <!-- Responsive navbar-->
+    <nav
+      class="border-b-2 flex flex-col sm:flex-row flex-wrap md:items-center px-4 md:px-5 lg:px-16 py-2 justify-between fixed top-0 z-20 w-full backdrop-filter backdrop-blur-md bg-white bg-opacity-70"
+    >
+      <div
+        class="flex items-center justify-between sm:justify-around gap-x-2 text-white"
+      >
+        <a
+          href="#!"
+          class="py-1 flex items-center text-2xl font-poppins text-slate-700"
+        >
+          <b class="text-slate-900">Mirza Maulana</b>
+        </a>
+
+        <!-- Hamburger -->
+        <button
+          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+          id="hamburger"
+          aria-label="menu"
+        >
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-4 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+        </button>
+      </div>
+
+      <ul
+        class="hidden sm:flex justify-end font-poppins items-center gap-x-7 gap-y-5 tracking-wide mt-28 sm:mt-0 text-black w-auto h-screen sm:w-0 sm:h-0 sm:text-left text-center text-lg md:text-sm"
+        id="links"
+      >
+        <li class="mb-5 sm:mb-0">
+          <a href="/index.html" class="text-yellow-400">Home</a>
+        </li>
+        <li class="mb-5 sm:mb-0">
+          <a href="./public/pages/project.html" class="hover:text-gray-300"
+            >Project</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a href="./public/pages/skills.html" class="hover:text-gray-300"
+            >Skills</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a href="./public/pages/About.html" class="hover:text-gray-300"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main class="mx-4">
+      <!-- Page Content -->
+      <section
+        class="sm:pb-20 sm:pt-20 pt-1 sm:justify-between sm:flex md:mx-14 font-poppins"
+      >
+        <div class="md:mt-14 mt-16">
+          <p
+            class="text-gray-600 mb-4 md:mb-4 text-2xl md:text-3xl mt-2 font-thin"
+          >
+            Hi, my name is
+          </p>
+          <h1 class="font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl">
+            Mirza Maulana
+          </h1>
+          <h3
+            class="font-semibold mt-2 md:mt-4 text-3xl md:text-4xl text-gray-800"
+          >
+            <span class="write text-yellow-400"></span>
+          </h3>
+          <p class="my-3 text-md">
+            I’m a Software Engineering Student, <br />
+            focusing in Web Development.
+          </p>
+          <!-- typing text cdn -->
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <!-- button resume -->
+          <button
+            type="button"
+            class="inline-block px-8 py-2.5 bg-yellow-400 text-white mt-3 font-mediums leading-tight uppercase rounded text-xs"
+          >
+            Download Resume
+          </button>
+        </div>
+      </section>
+      <!-- indicator -->
+      <div class="text-center my-12 animate-bounce">
+        <i class="bi bi-caret-down text-2xl"></i>
+      </div>
+
+      <!-- project -->
+      <section class="font-poppins">
+        <h2 class="text-lg my-4 md:mx-10 text-gray-700 md:text-2xl">
+          Some of my project
+        </h2>
+        <!-- project card-->
+        <div
+          class="grid grid-cols-1 gap-3 md:grid-cols-3 justify-items-center md:mx-10"
+        >
+          <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="/public/img/project/Botask app.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                Botask Manager
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                Create a schedule of your activities using botask
+              </p>
+              <span class="text-xs text-white">
+                <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                  BOOTSTRAP 5
+                </button>
+                <button class="px-3 py-1 bg-blue-500 rounded mr-2">PHP</button>
+                <button class="px-3 py-1 bg-red-500 rounded mr-2">Mysql</button>
+              </span>
+              <button
+                type="button"
+                class="inline-block px-6 py-2.5 mt-3 bg-yellow-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-600 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Source code
+              </button>
+            </div>
+          </div>
+
+          <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="/public/img/project/hospital-equipment.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                M-one Hospital Equiptment
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                Create overall health fot a BETTER LIFE with a better quality in
+                Indonesia.
+              </p>
+              <span class="text-xs text-white">
+                <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                  BOOTSTRAP 5
+                </button>
+              </span>
+              <a
+                href="https://m-one-hospital-equipment.netlify.app/"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class="block px-6 py-2.5 mt-3 bg-yellow-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-600 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Demo app
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="/public/img/project/portfolio 1.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                My first portfolio
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                I make first portfolio using bootstrap 5
+              </p>
+              <span class="text-xs text-white">
+                <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                  BOOTSTRAP 5
+                </button>
+              </span>
+              <a href="https://mirza-maulana.vercel.app/" target="_blank">
+                <button
+                  type="button"
+                  class="block px-6 py-2.5 mt-3 bg-yellow-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-600 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Demo app
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center">
+        <a href="/public/pages/project.html"
+          ><button class="px-5 py-2 rounded bg-yellow-400 text-white my-10">
+            More Project
+          </button></a
+        >
+      </div>
+    </main>
+    <!-- about -->
+    <section
+      class="flex flex-col md:flex-row text-white font-poppins bg-black my-3"
+    >
+      <img
+        src="/public/img/me.jpeg"
+        alt=""
+        class="rounded mx-5 my-10 md:basis-1/2 md:w-72 md:h-72 md:m-14 md:order-2"
+      />
+      <div class="m-5 md:m-16">
+        <h2>Hello World!</h2>
+        <h1 class="text-lg mt-3 md:text-2xl">
+          My name is <b class="text-yellow-400">Mirza Maulana Fauzian Risky</b>
+        </h1>
+        <p class="my-3">
+          a student of SMK Muhammadiyah 1 Sukoharjo. I really like coding and
+          have a goal to become a programmer in the future. In my spare time,
+          <br />
+          <br />
+          I enjoy learning more about computer programming and exploring new
+          technologies. I am driven and dedicated to achieving his goals, and am
+          always looking for ways to improve his skills and knowledge in the
+          field of computer programming.
+        </p>
+        <a href="">
+          <button class="px-5 rounded border-0 py-2 bg-yellow-400 my-5">
+            More About
+          </button></a
+        >
+      </div>
+    </section>
+    <section class="mx-5 md:mx-14 my-10 font-poppins">
+      <h1 class="text-lg font-bold">Any Question??</h1>
+      <p class="my-6">
+        I'd be happy to help you with any questions you have about technology or
+        games. Just ask your question and I'll do my best to provide a helpful
+        and accurate response.
+      </p>
+      <a
+        href="https://api.whatsapp.com/send?phone=628823997050&text=Hey%20Bro"
+        target="_blank"
+      >
+        <button class="px-4 py-2 bg-yellow-400 rounded text-white">
+          Lets Get a Talk!
+        </button></a
+      >
+    </section>
+    <!-- Footer -->
+    <footer class="p-2 border-t-2 text-black">
+      <p class="text-center font-poppins my-2 font-semibold px-2">
+        Create with love <b class="text-yellow-400">Mirza</b> - Copyright &copy;
+        <span id="year">2023</span>.
+      </p>
+    </footer>
+
+    <!-- Core Navbar JS-->
+    <script src="./public/js/navbar.js"></script>
+    <!-- Core theme JS-->
+    <script src="./public/js/scripts.js"></script>
+  </body>
+</html>
