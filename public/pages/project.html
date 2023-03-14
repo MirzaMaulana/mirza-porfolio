@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirza | Project</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="../css/output.css" />
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <nav
+      class="border-b-2 flex flex-col sm:flex-row flex-wrap md:items-center px-4 md:px-5 lg:px-16 py-2 justify-between fixed top-0 z-20 w-full backdrop-filter backdrop-blur-md bg-white bg-opacity-70"
+    >
+      <div
+        class="flex items-center justify-between sm:justify-around gap-x-2 text-white"
+      >
+        <a
+          href="#!"
+          class="py-1 flex items-center text-2xl font-poppins text-slate-700"
+        >
+          <b class="text-slate-900">Mirza Maulana</b>
+        </a>
+
+        <!-- Hamburger -->
+        <button
+          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+          id="hamburger"
+          aria-label="menu"
+        >
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-4 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+          <div class="w-6 h-1 rounded-lg bg-slate-700 bar duration-300"></div>
+        </button>
+      </div>
+
+      <ul
+        class="hidden sm:flex justify-end font-poppins items-center gap-x-7 gap-y-5 tracking-wide mt-28 sm:mt-0 text-black w-auto h-screen sm:w-0 sm:h-0 sm:text-left text-center text-lg md:text-sm"
+        id="links"
+      >
+        <li class="mb-5 sm:mb-0">
+          <a href="/index.html" class="hover:text-gray-300 active:text-blue-400"
+            >Home</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0">
+          <a
+            href="/public/pages/project.html"
+            class="hover:text-gray-300 active:text-blue-400"
+            >Project</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a
+            href="/public/pages/skills.html"
+            class="hover:text-gray-300 active:text-blue-400"
+            >Skills</a
+          >
+        </li>
+        <li class="mb-5 sm:mb-0 mx-0">
+          <a
+            href="/public/pages/About.html"
+            class="hover:text-gray-300 active:text-blue-400"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="font-poppins">
+      <!-- Page Content -->
+      <section class="py-14 bg-blue-200">
+        <h2 class="m-4 text-xl md:mx-16">My Project</h2>
+        <p class="text-2xl m-4 md:mx-16">
+          I created several projects, to develop my skills
+        </p>
+      </section>
+      <section
+        class="my-10 mx-4 md:m-14 grid grid-cols-1 md:grid-cols-3 gap-3 justify-items-center"
+      >
+        <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="/public/img/project/Botask app.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-6">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">
+              Botask Manager
+            </h5>
+            <p class="text-gray-700 text-base mb-4">
+              Create a schedule of your activities using botask
+            </p>
+            <span class="text-xs text-white">
+              <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                BOOTSTRAP 5
+              </button>
+              <button class="px-3 py-1 bg-blue-500 rounded mr-2">PHP</button>
+              <button class="px-3 py-1 bg-red-500 rounded mr-2">Mysql</button>
+            </span>
+            <button
+              type="button"
+              class="inline-block px-6 py-2.5 mt-3 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-600 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Source code
+            </button>
+          </div>
+        </div>
+
+        <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="/public/img/project/Tebarin.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-6">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">
+              Tebarin Berita
+            </h5>
+            <p class="text-gray-700 text-base mb-4">
+              A news web project using Laravel 9 is a web application built
+              using the Laravel 9 framework
+            </p>
+            <span class="text-xs text-white">
+              <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                BOOTSTRAP 5
+              </button>
+              <button class="px-3 py-1 bg-blue-500 rounded mr-2">Mysql</button>
+              <button class="px-3 py-1 bg-red-600 rounded mr-2">
+                Laravel 9
+              </button>
+            </span>
+            <a
+              href="https://github.com/MirzaMaulana/Magang-Laravel"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="inline-block px-6 py-2.5 mt-3 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-600 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Source code
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg shadow-lg my-3 bg-white max-w-sm">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="/public/img/project/hospital-equipment.jpg"
+              alt=""
+            />
+          </a>
+          <div class="p-6">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">
+              M-one Hospital Equiptment
+            </h5>
+            <p class="text-gray-700 text-base mb-4">
+              Create overall health fot a BETTER LIFE with a better quality in
+              Indonesia.
+            </p>
+            <span class="text-xs text-white">
+              <button class="px-3 py-1 bg-purple-500 rounded mr-2">
+                BOOTSTRAP 5
+              </button>
+              <!-- <button class="px-3 py-1 bg-blue-500 rounded mr-2">PHP</button>
+              <button class="px-3 py-1 bg-red-500 rounded mr-2">Mysql</button> -->
+            </span>
+            <a
+              href="https://m-one-hospital-equipment.netlify.app/"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="block px-6 py-2.5 mt-3 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-600 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Demo app
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+      <p class="text-center my-4 mx-2">
+        You can also visit some of my other works in
+        <a
+          href="https://github.com/MirzaMaulana"
+          class="text-blue-500 underline"
+          >my github</a
+        >
+      </p>
+      <!-- Footer -->
+      <footer class="p-2 border-t-2 text-black">
+        <p class="text-center font-poppins my-2 font-semibold px-2">
+          Create with love <b class="text-blue-400">Mirza</b> - Copyright &copy;
+          <span id="year">2023</span>.
+        </p>
+      </footer>
+    </main>
+
+    <!-- Core Navbar JS-->
+    <script src="../js/navbar.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
